@@ -16,7 +16,7 @@ const CurrentDate = () => {
 
   return (
     <div>
-      <p>Date: {dayOfWeek}, {formattedDate}</p>
+      <p className="">Date: {dayOfWeek}, {formattedDate}</p>
     </div>
   );
 };
